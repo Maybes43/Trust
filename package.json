@@ -1,0 +1,40 @@
+{
+  "name": "trust",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "connected-react-router": "^6.3.2",
+    "json-server": "^0.14.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "ramda": "^0.26.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start & json-server --watch backpak-test-trading-hours.json --port 6001",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "parser": "babel-eslint"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
